@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Nombre del disco</td>
+            <td>Fecha de publicación</td>
+            <td>Canciones</td>
+        </tr>
+        <tr>
+            <td>Mi mayor logro</td>
+            <td>21-05-2010</td>
+            <td>1. Brindando al recivirme</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>2. Brindando por la vida</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Viaje a Pariís</td>
+        </tr>
+    </table>
+<form>
+    <h1>Complete el siguiente Formulario</h1>
+
+    <label for="nombre">Nombre:</label>
+    <input id="nombre" type="text" name="nombre">
+
+    <br></br>
+
+    <label for="apellido">Apellido:</label>
+    <input id="apellido" type="text" name="apellido">
+
+    <br></br>
+
+    <label for="email">Email::</label>
+    <input id="email" type="text" name="email">
+
+    <br> </br>
+
+<label for="estadoCivil">Estado Civil</label>
+<select>
+
+    <option>Soletero/a</option>
+    <option>Casado/a</option>
+    <option>Divorciado/a</option>
+
+</select>
+
+    <br></br>
+
+    <label for="recibir">¿Desea recibir el Newsletter?:</label>
+    <input type="checkbox" name="recibir" id="recibir">
+
+    <br></br>
+
+    <textarea name="comentario" id="comentario" cols="30" rows="10">Comentarios</textarea>
+
+    <br></br>
+
+    <input type="submit" value="Enviar Formulario">
+    <input type="reset" value="Limpiar Formulario">
+</form>
+</body>
+</html>
